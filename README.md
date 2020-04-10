@@ -101,7 +101,7 @@ Copia o arquivo index.php para o diretório da imagem
 EXPOSE 9501
 ```
 
-Expõe porta a porta, para acessar a aplicação fora da imagem
+Expõe porta, para acessar a aplicação fora da imagem
 
 * * *
 
@@ -109,4 +109,4 @@ Expõe porta a porta, para acessar a aplicação fora da imagem
 ENTRYPOINT ["php","/var/www/index.php","start"]
 ```
 
-Ao rodar o container, o mesmo não persiste a execução, sendo interrompido. Nesse caso, aplica um comando para rodar a aplicação, persistindo o processo do container
+Ao rodar o container, o mesmo não persiste a execução, sendo interrompido. Nesse caso, define um comando para rodar a aplicação, persistindo o processo do container
